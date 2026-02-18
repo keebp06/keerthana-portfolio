@@ -1,5 +1,5 @@
 /* styles.css */
-
+document.documentElement.classList.add("js");
 :root{
   --bg:#050505;
   --panel: rgba(255,255,255,0.03);
@@ -455,7 +455,7 @@ body{
   border-radius: 2px;
 }
 
-/* Reveal on scroll 
+/* Reveal on scroll */
 .js .card,
 .js .quote,
 .js .section-head,
