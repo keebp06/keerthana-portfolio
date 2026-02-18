@@ -25,12 +25,11 @@ body{
 
 /* BACKGROUND DECOR */
 .bg-grid{
-  position:fixed; inset:0;
   background:
-    radial-gradient(700px 450px at 18% 18%, rgba(184,107,255,0.14), transparent 60%),
-    radial-gradient(650px 450px at 80% 30%, rgba(122,44,255,0.10), transparent 60%);
-  z-index:-3;
+    radial-gradient(700px 450px at 18% 18%, rgba(184,107,255,0.22), transparent 60%),
+    radial-gradient(650px 450px at 80% 30%, rgba(122,44,255,0.18), transparent 60%);
 }
+
 .bg-dots{
   position:fixed; inset:0;
   background-image: radial-gradient(rgba(255,255,255,0.06) 1px, transparent 1px);
@@ -496,6 +495,6 @@ body{
 }
 
 html, body {
-  background: #050505 !important;
-  color: rgba(255,255,255,0.92) !important;
+  background: var(--bg);
+  color: var(--text);
 }
