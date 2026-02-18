@@ -456,14 +456,19 @@ body{
 }
 
 /* Reveal on scroll */
-.card, .quote, .section-head, .contact-card, .skill-item{
+.js .card,
+.js .quote,
+.js .section-head,
+.js .contact-card,
+.js .skill-item{
   opacity: 0;
   transform: translateY(10px);
   transition: opacity .5s ease, transform .5s ease;
 }
-.reveal{
-  opacity: 1 !important;
-  transform: translateY(0) !important;
+
+.js .reveal{
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Experience filter chips */
