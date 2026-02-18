@@ -494,3 +494,8 @@ body{
   background: rgba(184,107,255,0.12);
   border-color: rgba(184,107,255,0.55);
 }
+
+html, body {
+  background: #050505 !important;
+  color: rgba(255,255,255,0.92) !important;
+}
